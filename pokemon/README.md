@@ -1,8 +1,8 @@
-# 🎮 Pokémon Explorer
+# Pokémon Explorer
 
 A modern, responsive web application built with React and Tailwind CSS that allows users to explore Pokémon using the public PokéAPI. Browse, search, and view detailed information about your favorite Pokémon!
 
-## 🚀 Features
+# Features
 
 ### Core Functionality
 - **Browse Pokémon**: View a list of Pokémon with their images and names
@@ -21,7 +21,7 @@ A modern, responsive web application built with React and Tailwind CSS that allo
 - **Custom Scrollbar**: Styled scrollbar for the Pokémon list
 - **Visual Feedback**: Selected Pokémon highlighted with indigo border
 
-## 📋 Requirements Met
+## Requirements Met
 
 ✅ Retrieve Pokémon data from PokéAPI  
 ✅ Display at least 10 Pokémon (name and image)  
@@ -31,14 +31,14 @@ A modern, responsive web application built with React and Tailwind CSS that allo
 ✅ Clean and readable layout with Tailwind CSS  
 ✅ Responsive for mobile and desktop  
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **React 19.2.0** - UI library
 - **Vite 7.2.4** - Build tool and dev server
 - **Tailwind CSS 4.1.18** - Utility-first CSS framework
 - **PokéAPI** - RESTful Pokémon API (https://pokeapi.co)
 
-## 📦 Installation & Setup
+Installation & Setup
 
 ### Prerequisites
 - Node.js (v14 or higher)
@@ -72,7 +72,7 @@ npm run build
 ```
 The production-ready files will be in the `dist/` folder.
 
-## 🎨 Design Decisions
+## Design Decisions
 
 ### Component Architecture
 - **Modular Components**: Separated into `PokemonCard`, `PokemonListItem`, and main `App` component for maintainability
@@ -93,14 +93,7 @@ The production-ready files will be in the `dist/` folder.
 - **Type Colors**: Created a color mapping for all 18 Pokémon types
 - **Custom Scrollbar**: Added custom styling for better aesthetics
 
-### UX Improvements
-- **Loading States**: Shows spinner while fetching data
-- **Disabled Buttons**: Prevents multiple API calls during loading
-- **Search on Enter**: Users can press Enter to search
-- **Visual Stat Bars**: Progress bars for stats instead of just numbers
-- **Image Optimization**: Used `object-contain` to prevent image distortion
-
-## 📁 Project Structure
+## Project Structure
 
 ```
 pokemon/
@@ -117,36 +110,27 @@ pokemon/
 └── vite.config.js           # Vite configuration
 ```
 
-## 🔧 Configuration Files
+## Configuration Files
 
 - **tailwind.config.js**: Configured to scan all JSX/TSX files
 - **postcss.config.js**: Set up with @tailwindcss/postcss and autoprefixer
 - **vite.config.js**: React plugin configuration
 
-## 🐛 Known Limitations
+## Known Limitations
 
 - Search only works on loaded Pokémon (not global search across all 1000+ Pokémon)
 - No caching mechanism (refetches data on page reload)
 
-## 🚀 Future Enhancements
-
-- Add Pokémon generation filters
-- Implement global search across all Pokémon
-- Add favorites/bookmarks feature
-- Include Pokémon evolution chains
-- Add dark mode toggle
-- Implement infinite scroll instead of "Load More" button
-
-## 📝 Notes
+## Notes
 
 - The app uses official Pokémon artwork from PokéAPI's sprites
 - All data is fetched from the free public PokéAPI (no authentication required)
 - The app is client-side only (no backend required)
 
-## 👨‍💻 Developer
+## Developer
 
 Built as a technical assessment for demonstrating React and Tailwind CSS skills.
 
-## 📄 License
+## License
 
 This project is for educational/assessment purposes. Pokémon and Pokémon character names are trademarks of Nintendo.
