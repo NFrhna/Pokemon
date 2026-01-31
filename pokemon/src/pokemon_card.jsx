@@ -243,10 +243,10 @@ function App() {
         {/* ========== HEADER SECTION ========== */}
         <div className="bg-gray-900 rounded-2xl shadow-xl p-6 mb-6">
           <h1 className="text-4xl sm:text-5xl font-bold text-center text-indigo-400 mb-2">
-            🎮 Pokémon Explorer
+            Pokémon Explorer
           </h1>
           <p className="text-center text-gray-400 text-sm sm:text-base">
-            Search Pokémon by name or Load Pokémon to the list
+            Search Pokémon by name or Load 10 Pokémon to the list
           </p>
         </div>
 
